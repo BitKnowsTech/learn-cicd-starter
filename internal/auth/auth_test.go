@@ -38,12 +38,6 @@ func TestGetAPIKey(t *testing.T) {
 			"TestKey",
 			"",
 		},
-		{
-			"ForceFail",
-			http.Header{},
-			"failure",
-			"",
-		},
 	}
 
 	for _, tc := range tests {
